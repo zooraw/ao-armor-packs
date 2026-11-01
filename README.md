@@ -3,8 +3,10 @@
 Optional local armor artwork and live switching for the regular Anarchy Online
 new-engine client, with integration for the [AOU mod](https://github.com/zooraw/aou_mod).
 
-**[Install with an AI assistant](INSTALL_WITH_AI.md)** or run [Install.ps1](Install.ps1)
-with your local game, AOU GUI and account preferences paths. Python 3.13 is required.
+**[Download the latest release](https://github.com/zooraw/ao-armor-packs/releases/latest)**
+and follow the **[installation guide](INSTALL.md)** or **[AI installation guide](INSTALL_WITH_AI.md)**.
+Python 3.13 or 3.14 is required. The ZIP includes the installer and custom artwork;
+Git is not needed.
 
 The included Omni-Armed Forces pack has a matte charcoal/black helmet and body,
 a dark blood-red glass visor/logos, and a black/yellow worn Tank Armor. Helmet/body

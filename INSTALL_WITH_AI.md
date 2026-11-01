@@ -28,7 +28,7 @@ Give your assistant this prompt:
    Read only the two armor variables if needed. Do not collect, print or upload
    unrelated account settings, character identifiers or credentials. If accounts
    are ambiguous, ask which account to use; a password is never required.
-5. Confirm Python 3.13 is available. If missing, explain that prerequisite rather
+5. Confirm Python 3.13 or 3.14 is available. If missing, explain that prerequisite rather
    than installing unrelated software. The installer creates a private venv with
    the pinned Frida and Pillow versions; it does not alter global packages.
 6. Exit regular AO normally before a fresh installation. Preserve other games,
