@@ -28,7 +28,7 @@ Release validation results are updated below after running the package checks.
 - Repeated installation reported already installed, verified owned sources and
   repaired integration without appending resources again.
 - Seven Python tests passed: optional controls absent/install/idempotence/remove,
-  legacy migration, real-parser append/EOF roundtrip, malformed texture handling
+  legacy migration, real-parser append/EOF roundtrip, malformed texture handling,
   named-preference parsing, partial rollback ownership and staging-file collision.
   These use generated fixtures, not a fresh AO install.
 - A stateful Direct3D API model passed repeated cached off/on/off and shared-source
@@ -36,8 +36,29 @@ Release validation results are updated below after running the package checks.
 - The packaged companion attached to the already running game, reporting all
   eight stock targets without an error. A new visual checkbox test was not
   completed while the user was interacting with the game.
-- A full fresh-install/uninstall run against an untouched client, fresh-login,
-  zoning and device reset remain unobserved. Do not describe fixture/adoption
-  checks as that coverage.
+- Full uninstall, fresh-login, zoning and device reset remain unobserved. Do not
+  describe fixture/adoption checks as that coverage.
+
+## Fresh installation on a separate client
+
+On 2026-11-01, a separate Windows machine cloned the public GitHub main commit
+`f18dcbc2b69bd76f68cdb222e87a41710ad53198` and ran Install.ps1 with no legacy
+adoption option and no existing armor-package marker. Regular AO was closed.
+
+- Fresh-install state records `adopted_database: false`.
+- All eight newly selected stock-HD records passed the real client-native
+  lookup/hash checks; native close returned 0.
+- The installed marker and all 16 custom/stock DDS inputs were present.
+- The isolated environment used Python 3.14.3 and the pinned dependencies.
+- The companion started successfully and reported waiting-for-game without
+  an error.
+- After this installation, the user reported that the requested armor testing
+  passed: checking and unchecking the helmet/body and Tank Armor packs works,
+  including returning to original artwork when disabled. This is user-confirmed
+  visual validation; the agent did not perform or observe the in-game clicks.
+
+This was an actual fresh armor-package installation, not legacy adoption or a
+synthetic database test. No uninstall, repeated test suite or extra restart
+cycle was performed for this focused check.
 
 Real paths, private logs and screenshots are intentionally excluded from Git.
