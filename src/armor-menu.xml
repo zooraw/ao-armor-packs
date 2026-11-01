@@ -1,0 +1,17 @@
+<Menu label="Armor Packs (live companion required)">
+  <MenuEntry label="[ ] Omni-Armed Forces helmet/body" criteria="dvalue:aou_armor_omni_af==false" tooltip="Live armor selection" tooltip_body="Checked: custom. Unchecked: original. Requires the local live companion.">
+    <Actions event="on_invoke"><SetValue name="aou_armor_omni_af" value="true"/></Actions>
+  </MenuEntry>
+  <MenuEntry label="[x] Omni-Armed Forces helmet/body" criteria="dvalue:aou_armor_omni_af==true" tooltip="Live armor selection" tooltip_body="Checked: custom. Unchecked: original. Requires the local live companion.">
+    <Actions event="on_invoke"><SetValue name="aou_armor_omni_af" value="false"/></Actions>
+  </MenuEntry>
+  <MenuEntry label="[ ] Omni-Armed Forces Tank Armor" criteria="dvalue:aou_armor_tank==false" tooltip="Live armor selection" tooltip_body="Checked: custom. Unchecked: original. Requires the local live companion.">
+    <Actions event="on_invoke"><SetValue name="aou_armor_tank" value="true"/></Actions>
+  </MenuEntry>
+  <MenuEntry label="[x] Omni-Armed Forces Tank Armor" criteria="dvalue:aou_armor_tank==true" tooltip="Live armor selection" tooltip_body="Checked: custom. Unchecked: original. Requires the local live companion.">
+    <Actions event="on_invoke"><SetValue name="aou_armor_tank" value="false"/></Actions>
+  </MenuEntry>
+  <MenuEntry button_mode="button" label="Instructions / Live companion">
+    <Actions event="on_invoke"><RunChatScript value="/showfile Scripts\AOU_mod\HelpFiles\armor-packs.html"/><CloseMenu/></Actions>
+  </MenuEntry>
+</Menu>

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.local/
+state/
+backups/
+*.local.json
+config.json
+installed.json
+controller-status.*
+stop.request
+runtime-textures.json
+*.dds
+*.bin
+*.dat*
+*.idx
+*.log

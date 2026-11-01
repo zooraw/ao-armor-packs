@@ -1,0 +1,93 @@
+{
+  "id": "omni-af",
+  "name": "Omni-Armed Forces matte armor",
+  "version": 1,
+  "client_hashes": {
+    "Cheetah.dll": "f2fd2bb9019f75a1f1a521678f8ed55b24fe0efb47f7a196625e0504cfa8bb90",
+    "Utils.dll": "eaa16a7715f254f56d12ddf1f188951143feedeb1c5481ab0d7ad8d57b349a06",
+    "DisplaySystem.dll": "45e3d789bc8f2f864c8a3eb522b9ade88df3a75864c0e931f9b2b85d0da171e1",
+    "DatabaseController.dll": "a49bc2fd8ebecee8c3442b9ad407b37091b0cd85c506e7129dc178c7adb054f2"
+  },
+  "resources": [
+    {
+      "id": 18000,
+      "width": 1024,
+      "height": 512,
+      "levels": 10,
+      "label": "helmet",
+      "artwork": "artwork/helmet.png",
+      "artwork_sha256": "4f21870459ddaa2c848219febe1dfaac52638e9151676365b6df56c0c78cf64b",
+      "stock_sha256": "c8479138684a6e638093b08e7441f78c40d7eba3d1ad96fd6fa9125b43d3ee3f"
+    },
+    {
+      "id": 17988,
+      "width": 256,
+      "height": 256,
+      "levels": 9,
+      "label": "helmet-inset",
+      "artwork": "artwork/helmet-inset.png",
+      "artwork_sha256": "f2a3bc6b0cbee8d90c1e479dd15d9c772fa8381608a5dd57d31e6ae3f97ad300",
+      "stock_sha256": "dccfac6b14d62caec150e0ce87aab1beefda0698979801ddd7a699ef855a7800"
+    },
+    {
+      "id": 204160,
+      "width": 1024,
+      "height": 512,
+      "levels": 10,
+      "label": "chest",
+      "artwork": "artwork/chest.png",
+      "artwork_sha256": "a6e229a9e8e32460329e6a2dd3f8b7ee6fd2a9b57a1a464f8c25af72f1e6763b",
+      "stock_sha256": "5e1a66b1811259d9c3e9323bc34108a77b30b4f338c492444729eb82570ad6e8"
+    },
+    {
+      "id": 15806,
+      "width": 512,
+      "height": 256,
+      "levels": 9,
+      "label": "hands",
+      "artwork": "artwork/hands.png",
+      "artwork_sha256": "71f1c512764aafc4e23aab389ee0ce245879be154c585a2e2ffb78a8df85acce",
+      "stock_sha256": "369aee34686ab9519f3812267d2e955d4b77619e6afb9bfd7549558ffd885293"
+    },
+    {
+      "id": 15805,
+      "width": 512,
+      "height": 512,
+      "levels": 10,
+      "label": "legs",
+      "artwork": "artwork/legs.png",
+      "artwork_sha256": "1e0a0758aa9d69663dbdd69f2052428b5a158186bd38de53277231166a99eac2",
+      "stock_sha256": "0cf5b82505235efde258b7b70beb8e678c0fd10afd796261d672a04cedfe9176"
+    },
+    {
+      "id": 15807,
+      "width": 512,
+      "height": 512,
+      "levels": 10,
+      "label": "feet",
+      "artwork": "artwork/feet.png",
+      "artwork_sha256": "5745ec6cdb4d7f0ceca9aba3916f3c765f823a61413a4111861a328884836e98",
+      "stock_sha256": "7b33d84a7de37d355bf1bd22edfdce3f37035ceedc4500b844c946b81878789f"
+    },
+    {
+      "id": 15808,
+      "width": 512,
+      "height": 512,
+      "levels": 10,
+      "label": "both-arms",
+      "artwork": "artwork/both-arms.png",
+      "artwork_sha256": "f9f3c773b1f32a247eca804ff2e4a32abd2d4eb89483e9d1c8cc409d48f9361d",
+      "stock_sha256": "099b24e79b7cdaafe6e4925266e9222a1fb7a55522d66467946b2752426b3a71"
+    },
+    {
+      "id": 206969,
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "label": "tank",
+      "artwork": "artwork/tank.png",
+      "artwork_sha256": "75ec00cee995472a50fa80eda9a01c18e52339e0bf89ac89094a1692509ee5c3",
+      "stock_sha256": "f63e3faae7b2348dbe60ff6852401528f51865d897014fc5404175c01742d86f"
+    }
+  ]
+}
