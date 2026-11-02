@@ -5,7 +5,8 @@ ao-vk 0.8.1**. It does not use the retail D3D9 backend, touch the retail AO
 installation, rewrite PRK's SQLite database or replace its renderer/browser DLLs.
 Exact executable/renderer/Utils hashes are checked before installation.
 
-Install the separate **PRK_aou_mod** GUI first. It provides the namespaced
+Install the separate [PRK_aou_mod GUI](https://github.com/zooraw/PRK_aou_mod#install)
+first. It provides the namespaced
 `PRK_AOU_CYT`, `PRK_AOU_Slim_CNI` and `PRK_AOU_Slim_CNT` layouts. The regular
 AOU layouts and the retail `Install.ps1` armor path are not the PRK installer.
 
