@@ -16,6 +16,9 @@ and tank have independent switches. The helmet has no yellow.
 
 ## Installation and controls
 
+**Project Rubi-Ka uses the separate [PRK profile and installer](docs/PRK.md).**
+The retail instructions below do not apply to PRK.
+
 Close regular AO normally, then run:
 
 ```powershell
@@ -76,8 +79,9 @@ The companion status file is `%USERPROFILE%\.ao-armor-packs\controller-status.js
 `waiting-for-game` / `waiting-for-armor` is normal before the game/resources load.
 For custom state locations, pass the same `-StateDirectory` to all scripts.
 
-This first version targets the verified 32-bit regular-AO 18.8.62_EP2 new-engine
-DLL build. It does not target Project Rubi-Ka. See [verification](docs/verification.md)
+The retail profile targets the verified 32-bit regular-AO 18.8.62_EP2 new-engine
+DLL build. PRK uses its own [profile and renderer path](docs/PRK.md), never the
+retail installer or renderer offsets. See [verification](docs/verification.md)
 for observed behavior and remaining coverage. Cached staging uploads explicitly
 mark their source dirty before **every** transfer, including off/rollback paths.
 

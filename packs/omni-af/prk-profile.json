@@ -1,0 +1,27 @@
+{
+  "id": "prk-ao-vk-0.8.1",
+  "client_version": "00.7.2_EP1",
+  "backend": "ao-vk-materials",
+  "resource_type": 1010004,
+  "client_hashes": {
+    "AnarchyOnline.exe": "b4afb033eaec24a88994feca4a374c982f1851f4ecad532861f97d9a8ff8aced",
+    "Utils.dll": "c611d56324f4e00da55053232656f90b9620771c78f041ffb72b734014fc0dc0",
+    "DisplaySystem.dll": "9ed05b9040552179ae3356ce98ddfe532a2c6c4a424c15345a1dfe26b8620d8e",
+    "randy31.dll": "191b55e33790eca78fec2926d12a95344734bb3fe7969c4fa70879e17e497e15"
+  },
+  "resource_hashes": {
+    "18000": "7e429bd8291ae2201c68b6de3cea305fd1da15ca54edfca02d15acd4651010ac",
+    "17988": "179135f840b91e08936da425bf2bf4858020a5b7c6797799244b345860cfe5ae",
+    "204160": "d5d03941c26ef850c0b1c56e4ec71fcaa29b029e498e0f2a473dc10194d33e5d",
+    "15805": "c60de6f6b98d77fee17fae54d8b8c3e6967c4dd52113bf84d312283f79a2b943",
+    "15806": "7b649a0a3d9e3f71fcd290ac35e63c97456c1eece80868c46eb853ac32d5f917",
+    "15807": "4a5b9ee09e6e8faab10058e968f26356518f50418bd0be42f189ffebcc35df59",
+    "15808": "4cc43beab74072a6d2b456375df0acd4ff741deab4ce034eaf5be1206123a6bf",
+    "206969": "33b075abf4902b24c61846f56b06e1d139033a5c208ff5e8aae5fcb9a5813982"
+  },
+  "gui_layouts": [
+    "PRK_AOU_CYT",
+    "PRK_AOU_Slim_CNI",
+    "PRK_AOU_Slim_CNT"
+  ]
+}

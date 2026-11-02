@@ -51,10 +51,10 @@ def inject(text,kind,block=None):
     return text
 
 
-def plan(gui_root,game,enabled):
+def plan(gui_root,game,enabled,layouts=LAYOUTS):
     """Prepare/validate every edit before the installer writes any GUI files."""
     changes={}
-    for name in LAYOUTS:
+    for name in layouts:
         base=Path(gui_root)/name
         if not base.exists():continue
         for file,kind,block in [('ActionMenu/Menu_AOU.xml','menu',MENU),('LoginPrefs.xml','prefs',DEFAULTS),('OptionPanel/Root.xml','options',OPTIONS)]:

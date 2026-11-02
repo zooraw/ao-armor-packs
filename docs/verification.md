@@ -62,3 +62,12 @@ synthetic database test. No uninstall, repeated test suite or extra restart
 cycle was performed for this focused check.
 
 Real paths, private logs and screenshots are intentionally excluded from Git.
+
+## Project Rubi-Ka profile
+
+The separate PRK implementation and its executed checks are documented in
+[PRK validation](PRK.md#executed-validation). Its actual GUI checkbox pairs
+added/removed the correct material files with the companion live and renderer
+hot reload enabled. Equipped rendering remains unobserved; the new account's
+appearance test was explicitly waived. Retail validation above does not establish
+PRK rendering behavior.
